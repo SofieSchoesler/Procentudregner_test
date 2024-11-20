@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procentudregner</title>
+</head>
+<body>
+    <h1>Procentudregner for syge høns</h1>
+    <form id="calculator">
+        <label for="group1">Gruppe 1:</label>
+        <input type="number" id="group1" name="group1" min="0" max="25"><br><br>
+        
+        <label for="group2">Gruppe 2:</label>
+        <input type="number" id="group2" name="group2" min="0" max="25"><br><br>
+        
+        <label for="group3">Gruppe 3:</label>
+        <input type="number" id="group3" name="group3" min="0" max="25"><br><br>
+        
+        <label for="group4">Gruppe 4:</label>
+        <input type="number" id="group4" name="group4" min="0" max="25"><br><br>
+        
+        <button type="button" onclick="calculatePercentage()">Beregn Procent</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
